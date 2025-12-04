@@ -1,0 +1,9 @@
+{% extends '../layout.html' %}
+
+{% block content %}
+
+<h1>Logged Out</h1>
+<p>本日は当Webサイトに貴重な時間を過ごしていただきありがとうございました。</p>
+<p><a href='{% url "login" %}'>Log in again</a></p>
+
+{% endblock %}
